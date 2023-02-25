@@ -8,7 +8,7 @@ const STYLE_HIDDEN = 'hidden';
 // Стиль bootstrap для невалидного объекта
 const STYLE_IS_INVALID = 'is-invalid';
 
-export default class GNMWidget {
+export default class TimeLineWidget {
   constructor(parentEl) {
     this.parentEl = parentEl;
   }

@@ -1,4 +1,4 @@
-import './css/chat.css';
+import './css/gnm.css';
 import User from './js/user';
 import Message from './js/message';
 
@@ -8,11 +8,9 @@ const STYLE_HIDDEN = 'hidden';
 // Стиль bootstrap для невалидного объекта
 const STYLE_IS_INVALID = 'is-invalid';
 
-export default class ChatWidget {
-  constructor(parentEl, urlWebSocket) {
+export default class GNMWidget {
+  constructor(parentEl) {
     this.parentEl = parentEl;
-    this.urlWebSocket = urlWebSocket;
-    this.ws = null;
   }
 
   static get formChatHTML() {

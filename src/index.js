@@ -1,8 +1,3 @@
-import './css/style.css';
+import './css/bootstrap.css';
 
 import './js/app';
-
-import './img/js.png';
-import './img/netology.png';
-
-// TODO: write your code in app.js
